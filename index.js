@@ -152,7 +152,7 @@ class Lambdasian {
 class Instructor extends Lambdasian{
   constructor(attrs){
 
-    super({...attrs});
+    super(attrs);
 
     this.specialty   = attrs.specialty;
     this.favLanguage = attrs.favLanguage;
@@ -192,7 +192,7 @@ class Instructor extends Lambdasian{
 class Student extends Lambdasian {
   constructor(attrs){
     
-    super({...attrs});
+    super(attrs);
 
     this.previousBackground = attrs.previousBackground;
     this.className          = attrs.className;
@@ -254,7 +254,7 @@ class Student extends Lambdasian {
 class ProjectManager extends Instructor{
   constructor(attrs){
 
-    super({...attrs});
+    super(attrs);
 
     this.gradClassName = attrs.gradClassName;
     this.favInstructor = attrs.favInstructor; 
